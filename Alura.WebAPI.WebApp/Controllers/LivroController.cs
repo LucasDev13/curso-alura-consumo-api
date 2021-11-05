@@ -13,10 +13,12 @@ namespace Alura.ListaLeitura.WebApp.Controllers
     public class LivroController : Controller
     {
         private readonly IRepository<Livro> _repo;
+        private readonly LivroApiClient _api;
 
-        public LivroController(IRepository<Livro> repository)
+        public LivroController(IRepository<Livro> repository, LivroApiClient api)
         {
             _repo = repository;
+            _api = api;
         }
 
         [HttpGet]
@@ -40,8 +42,7 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> ImagemCapa(int id)
         {
-            var api = new LivroApiClient();
-            byte[] img = await api.GetCapaLivroAsync(id);
+            byte[] img = await _api.GetCapaLivroAsync(id);
             if (img != null)
             {
                 return File(img, "image/png");
@@ -52,8 +53,7 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Detalhes(int id)
         {
-            var api = new LivroApiClient();
-            var model = await api.GetLivroApiAsync(id);
+            var model = await _api.GetLivroApiAsync(id);
             if (model == null)
             {
                 return NotFound();

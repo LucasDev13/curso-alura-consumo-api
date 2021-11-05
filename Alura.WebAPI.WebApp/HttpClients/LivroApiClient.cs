@@ -12,10 +12,9 @@ namespace Alura.ListaLeitura.HttpClients
 
         private readonly HttpClient _httpClient;
 
-        public LivroApiClient()
+        public LivroApiClient(HttpClient httpClient)
         {
-            _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new System.Uri("http://localhost:5000/api/");
+            _httpClient = httpClient;
         }
 
         public async Task<byte[]> GetCapaLivroAsync(int id)
