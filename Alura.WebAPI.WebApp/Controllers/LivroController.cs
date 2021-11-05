@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Alura.ListaLeitura.HttpClients;
 
 namespace Alura.ListaLeitura.WebApp.Controllers
 {
@@ -39,8 +40,8 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> ImagemCapa(int id)
         {
-            var api = new LivroApiclient();
-            byte[] img = await resposta.Content.ReadAsByteArrayAsync();
+            var api = new LivroApiClient();
+            byte[] img = await api.GetCapaLivroAsync(id);
             if (img != null)
             {
                 return File(img, "image/png");
@@ -51,17 +52,8 @@ namespace Alura.ListaLeitura.WebApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Detalhes(int id)
         {
-            //http://localhost:5000/api/livros/{id}
-            //http://localhost:5000/api/listasLeituras/{tipo}
-            //http://localhost:5000/api/livros/{id}/capa
-            
-            var httpClient = new HttpClient();
-            httpClient.BaseAddress = new System.Uri("http://localhost:5000/api/");
-            HttpResponseMessage resposta = await httpClient.GetAsync($"livros/{id}");
-            resposta.EnsureSuccessStatusCode();
-
-
-            var model = await resposta.Content.ReadAsAsync<LivroApi>();
+            var api = new LivroApiClient();
+            var model = await api.GetLivroApiAsync(id);
             if (model == null)
             {
                 return NotFound();
