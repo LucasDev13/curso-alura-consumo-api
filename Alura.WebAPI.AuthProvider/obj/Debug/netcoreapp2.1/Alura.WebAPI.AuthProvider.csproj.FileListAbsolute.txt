@@ -16,6 +16,7 @@ C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAul
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.RazorAssemblyInfo.cache
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.RazorAssemblyInfo.cs
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.RazorTargetAssemblyInfo.cache
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.csproj.CopyComplete
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.pdb
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.AuthProvider\obj\Debug\netcoreapp2.1\Alura.WebAPI.AuthProvider.genruntimeconfig.cache

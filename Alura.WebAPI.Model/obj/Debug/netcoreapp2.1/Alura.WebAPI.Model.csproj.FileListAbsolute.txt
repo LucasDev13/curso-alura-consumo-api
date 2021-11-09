@@ -7,4 +7,3 @@ C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAul
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csproj.CoreCompileInputs.cache
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.pdb
-C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Alura.WebAPI.FinalAula7\Alura.WebAPI\Alura.WebAPI.Model\obj\Debug\netcoreapp2.1\Alura.WebAPI.Model.csproj.AssemblyReference.cache
